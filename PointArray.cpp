@@ -58,7 +58,7 @@ void PointArray::resize(const int &newLen){
         cout << "Ingrese otro valor" << endl;
     }
 }
-void PointArray::push_back(const Point &p){ 
+void PointArray::pushBack(const Point &p){ 
     resize(len+1);                          
     firstPoint[len-1] = p; 
 }
