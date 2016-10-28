@@ -10,7 +10,7 @@ int main()
     PointArray pa1{a,4}
     pointArray pa2{pa1}
     
-    Point nuevo1{14, 25};
+    Point b{14, 25};
     pA2.pushBack(nuevo1);
     
     
