@@ -18,13 +18,13 @@ public:
 class PointArray
 {
 private:
-    void resize(const int &newLength);
+    void resize(const int &newLen);
     Point* firstPoint;
     int len;
 
 public:
     PointArray();
-    PointArray(const Point points[], const int &_size);
+    PointArray(const Point points[], const int &<Size);
     PointArray(const PointArray &pv);
     ~PointArray();
     void showPoint(const int &pos);
